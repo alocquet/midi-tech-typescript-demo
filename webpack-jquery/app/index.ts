@@ -1,4 +1,7 @@
 import * as $  from "jquery";
+import {sayHello} from "./component"
+
+document.body.appendChild(sayHello("Nicolas"));
 
 $("body").append("Un test avec jQuery");
 
@@ -13,12 +16,5 @@ var todos:Array<ToDo>= [
     {label:"Task 4"},
 ]
 
-$("body").append("<ul>");
+$("body").append($("<ul>"));
 $.each(todos, (index, item:ToDo)=> $("ul").append(`<li>${item.label}</li>`))
-
-
-
-
-
-
-//document.body.appendChild(sayHello("Nicolas"));

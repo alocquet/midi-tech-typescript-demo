@@ -158,6 +158,10 @@ Installer la defintion ts de `jquery`
 
 Le dossier `node_modules`contient désormais un nouveau repertoire @type contenant la definition de jquery. Pour obtenir l'ensemble des definitions, le repo github suivant contient [l'ensemble des defintion] :https://github.com/DefinitelyTyped/DefinitelyTyped
 
+Le fichier `tsconfig.js` doit intégrer la ligne suivante : 
+
+`"typeRoots": [ "node_modules/@types/" ]`
+
 Pour utiliser la librairie `jquery`, il est nécessaire de l'importer via la commande : 
 
 ```typescript
