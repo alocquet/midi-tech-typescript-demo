@@ -82,9 +82,9 @@ Installer les plugins `typescript`et `ts-loader`.
 
 `npm install --save-dev typescript ts-loader`
 
-Créer un fichier `tsconfig.js`
+Créer le fichier `tsconfig.js`
 ----------------------
-Ajouter un fichier `tsconfig.js`à la racine du projet
+Ajouter le fichier `tsconfig.js` à la racine du projet et contenant :
 
 ```javascript
 {
@@ -99,6 +99,74 @@ Ajouter un fichier `tsconfig.js`à la racine du projet
   }
 }
 ```
+
+Modifier le fichier `webpack.config.js`
+---------------------
+```javascript
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const PATHS = {
+    app: path.join(__dirname, 'app'),
+    build: path.join(__dirname, 'build'),
+};
+
+module.exports = {
+    // Entry accepts a path or an object of entries.
+    // We'll be using the latter form given it's
+    // convenient with more complex configurations.
+    //
+    // Entries have to resolve to files! It relies on Node
+    // convention by default so if a directory contains *index.js*,
+    // it will resolve to that.
+    entry: {
+        app: PATHS.app,
+    },
+    output: {
+        path: PATHS.build,
+        filename: '[name].js',
+    },
+    resolve: {
+        extensions: ['.js', '.ts', '.tsx']
+    },
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                loader: 'ts-loader',
+                exclude: /node_modules/,
+            },
+        ]
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            title: 'Webpack demo',
+        }),
+    ],
+};
+```
+
+Ajouter la librairie jquery
+--------------------------
+Commencons par ajouter la librairie jquery au projet
+
+`npm install jquery --save-dev`
+
+Installer la defintion ts de `jquery`
+
+`npm install --save @types`
+
+Le dossier `node_modules`contient désormais un nouveau repertoire @type contenant la definition de jquery. Pour obtenir l'ensemble des definitions, le repo github suivant contient [l'ensemble des defintion] :https://github.com/DefinitelyTyped/DefinitelyTyped
+
+Pour utiliser la librairie `jquery`, il est nécessaire de l'importer via la commande : 
+
+```typescript
+import * as $ from "jquery"
+```
+
+
+
+
 
 
 
