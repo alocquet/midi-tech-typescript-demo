@@ -1,0 +1,1355 @@
+{
+    "nhits": 215,
+    "parameters": {
+        "dataset": [
+            "sirene@public"
+        ],
+        "timezone": "UTC",
+        "q": "gfi",
+        "rows": 10,
+        "format": "json",
+        "facet": [
+            "categorie",
+            "proden",
+            "libapen",
+            "siege",
+            "libreg_new",
+            "saisonat",
+            "libtefen",
+            "depet",
+            "libnj",
+            "libtca",
+            "liborigine"
+        ]
+    },
+    "records": [
+        {
+            "datasetid": "sirene@public",
+            "recordid": "a2d7183610cc4325d965f57e81a8c926b9da748b",
+            "fields": {
+                "efetcent": "0",
+                "l6_declaree": "69970 CHAPONNAY",
+                "l6_normalisee": "69970 CHAPONNAY",
+                "libtefen": "0 salarié",
+                "libcom": "CHAPONNAY",
+                "typvoie": "RTE",
+                "date_deb_etat_adm_et": "1990-07-13",
+                "dapet": "2008",
+                "l4_declaree": "RTE DE VALENCIN",
+                "l1_normalisee": "GFILS",
+                "epci": "246900765",
+                "tcd": "17",
+                "modet": "S",
+                "defen": "2004",
+                "proden": "Non productif",
+                "libtu": "Unité urbaine de 200 000 à 1 999 999 habitants",
+                "siren": "378689277",
+                "l3_declaree": "LES TROYETS",
+                "apet700": "6820B",
+                "tu": "7",
+                "lieuact": "99",
+                "libvoie": "DE VALENCIN",
+                "libtefet": "0 salarié",
+                "libapet": "Location de terrains et d'autres biens immobiliers",
+                "depcomen": "69270",
+                "libreg_new": "Auvergne-Rhône-Alpes",
+                "siret": "37868927700010",
+                "l4_normalisee": "ROUTE DE VALENCIN",
+                "prodet": "Non productif",
+                "libactivnat": "Non renseigné",
+                "codpos": "69970",
+                "l1_declaree": "GFILS",
+                "dcren": "1990-07-13",
+                "amintren": "2012-09",
+                "apen700": "6820B",
+                "siege": "Etablissement siège",
+                "nic": "00010",
+                "dapen": "2008",
+                "nj": "6540",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "nicsiege": "00010",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "09",
+                "diffcom": "Établissement diffusable",
+                "dcret": "1990-07-13",
+                "du": "00",
+                "coordonnees": [
+                    45.621152,
+                    4.918429
+                ],
+                "depet": "69",
+                "amintret": "2012-09",
+                "datemaj": "2014-10-29T00:00:00+00:00",
+                "nomen_long": "GFILS",
+                "l7_normalisee": "FRANCE",
+                "defet": "2004",
+                "activnat": "NR",
+                "uu": "58",
+                "monoact": "1",
+                "libnj": "Société civile immobilière",
+                "tefen": "00",
+                "efencent": "0",
+                "rpen": "84",
+                "origine": "1",
+                "libapen": "Location de terrains et d'autres biens immobiliers",
+                "zemet": "8214",
+                "arronet": "2",
+                "saisonat": "Permanente",
+                "rpet": "84",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "270",
+                "auxilt": "Non auxiliaire",
+                "ind_publipo": "établissement ne faisant pas partie du champ du publipostage",
+                "liborigine": "Création (pour tout type de déclaration)",
+                "l2_normalisee": "LES TROYETS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.918429,
+                    45.621152
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:52:19+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "8a3db1d5ae1c3252777c1cfb7a3d53f9a37d6c82",
+            "fields": {
+                "efetcent": "1",
+                "l6_declaree": "36000 CHATEAUROUX",
+                "l6_normalisee": "36000 CHATEAUROUX",
+                "libtefen": "1 ou 2 salariés",
+                "libcom": "CHATEAUROUX",
+                "typvoie": "PL",
+                "date_deb_etat_adm_et": "1990-03-28",
+                "l3_normalisee": "RESIDENCE LE FRANCE",
+                "dapet": "2008",
+                "dcren": "1984-12-01",
+                "l1_normalisee": "GROUPEMENT FONCIER INVESTISSEMENT",
+                "epci": "243600327",
+                "categorie": "PME",
+                "tcd": "44",
+                "modet": "S",
+                "libtefet": "1 ou 2 salariés",
+                "proden": "Productif",
+                "libtu": "Unité urbaine de 50 000 à 99 999 habitants",
+                "siren": "331195487",
+                "dapen": "2008",
+                "l3_declaree": "RESIDENCE LE FRANCE",
+                "apet700": "6831Z",
+                "tu": "5",
+                "lieuact": "99",
+                "libvoie": "SAINT CYRAN",
+                "defen": "2015",
+                "libapet": "Agences immobilières",
+                "depcomen": "36044",
+                "siret": "33119548700029",
+                "l4_normalisee": "24 PLACE SAINT CYRAN",
+                "prodet": "Productif",
+                "sigle": "GFI",
+                "libactivnat": "Non renseigné",
+                "codpos": "36000",
+                "l1_declaree": "GROUPEMENT FONCIER INVESTISSEMENT",
+                "l4_declaree": "24 PL SAINT CYRAN",
+                "amintren": "2012-09",
+                "apen700": "6831Z",
+                "siege": "Etablissement siège",
+                "nic": "00029",
+                "libreg_new": "Centre-Val de Loire",
+                "nj": "5499",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "24",
+                "nicsiege": "00029",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "99",
+                "diffcom": "Établissement diffusable",
+                "dcret": "1990-03-28",
+                "du": "36",
+                "coordonnees": [
+                    46.812087,
+                    1.694118
+                ],
+                "depet": "36",
+                "amintret": "2012-09",
+                "datemaj": "2003-10-06T00:00:00+00:00",
+                "nomen_long": "GROUPEMENT FONCIER INVESTISSEMENT",
+                "l7_normalisee": "FRANCE",
+                "defet": "2015",
+                "activnat": "NR",
+                "uu": "01",
+                "monoact": "1",
+                "libnj": "Société à responsabilité limitée (sans autre indication)",
+                "tefen": "01",
+                "efencent": "1",
+                "rpen": "24",
+                "origine": "9",
+                "libapen": "Agences immobilières",
+                "zemet": "2409",
+                "arronet": "2",
+                "saisonat": "Permanente",
+                "rpet": "24",
+                "tefet": "01",
+                "moden": "S",
+                "comet": "044",
+                "auxilt": "Non auxiliaire",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "liborigine": "Autre (pour les déclarations non agricoles)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.694118,
+                    46.812087
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:51:55+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "6d7831e22b97f1dec7e11f8878137a7929289fbc",
+            "fields": {
+                "efetcent": "NN",
+                "l6_declaree": "37170 CHAMBRAY LES TOURS",
+                "l6_normalisee": "37170 CHAMBRAY LES TOURS",
+                "libtefen": "3 à 5 salariés",
+                "libcom": "CHAMBRAY LES TOURS",
+                "typvoie": "AV",
+                "date_deb_etat_adm_et": "2016-03-01",
+                "dapet": "2016",
+                "l4_declaree": "13 B AV DE LA REPUBLIQUE",
+                "l1_normalisee": "GESTION FINANCIERE IMMOBILIERE",
+                "epci": "243700754",
+                "categorie": "PME",
+                "tcd": "31",
+                "modet": "S",
+                "defen": "2015",
+                "proden": "Productif",
+                "libtu": "Unité urbaine de 200 000 à 1 999 999 habitants",
+                "siren": "393803978",
+                "defet": "2016",
+                "apet700": "6810Z",
+                "tu": "7",
+                "libvoie": "DE LA REPUBLIQUE",
+                "libtefet": "0 salarié",
+                "libapet": "Activités des marchands de biens immobiliers",
+                "depcomen": "37050",
+                "libreg_new": "Centre-Val de Loire",
+                "siret": "39380397800062",
+                "l4_normalisee": "13 B AVENUE DE LA REPUBLIQUE",
+                "prodet": "Productif",
+                "sigle": "GFI",
+                "codpos": "37170",
+                "monoact": "1",
+                "dcren": "1994-01-02",
+                "amintren": "2012-09",
+                "apen700": "6810Z",
+                "siege": "Etablissement siège",
+                "nic": "00062",
+                "dapen": "2008",
+                "nj": "5498",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "13",
+                "indrep": "B",
+                "nicsiege": "00062",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "10",
+                "diffcom": "Établissement diffusable",
+                "dcret": "2016-03-01",
+                "du": "37",
+                "coordonnees": [
+                    47.344879,
+                    0.712452
+                ],
+                "depet": "37",
+                "amintret": "2016-05",
+                "datemaj": "2016-11-21T00:00:00+00:00",
+                "nomen_long": "GESTION FINANCIERE IMMOBILIERE",
+                "l7_normalisee": "FRANCE",
+                "l1_declaree": "GESTION FINANCIERE IMMOBILIERE",
+                "auxilt": "Non auxiliaire",
+                "uu": "01",
+                "libnj": "SARL unipersonnelle",
+                "tefen": "02",
+                "efencent": "3",
+                "rpen": "24",
+                "origine": "NR",
+                "libapen": "Activités des marchands de biens immobiliers",
+                "zemet": "2412",
+                "arronet": "2",
+                "saisonat": "Permanente",
+                "rpet": "24",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "050",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "liborigine": "Non renseigné"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.712452,
+                    47.344879
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:52:38+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "7d24c09a9d7d63628b220f5f8e4d7f02c27a88ad",
+            "fields": {
+                "efetcent": "NN",
+                "l6_declaree": "34270 LE TRIADOU",
+                "l6_normalisee": "34270 LE TRIADOU",
+                "libtefen": "0 salarié",
+                "libcom": "LE TRIADOU",
+                "typvoie": "CHE",
+                "date_deb_etat_adm_et": "2010-03-04",
+                "dapet": "2010",
+                "l4_declaree": "CHE DU LAVOIR",
+                "l1_normalisee": "EURL GAYOT FOURNITURES INDUSTRIELLES",
+                "epci": "200022986",
+                "categorie": "PME",
+                "tcd": "08",
+                "modet": "S",
+                "defen": "2010",
+                "proden": "Productif",
+                "libtu": "Établissement localisé en commune rurale",
+                "siren": "520784893",
+                "apet700": "4669B",
+                "tu": "0",
+                "lieuact": "99",
+                "libvoie": "DU LAVOIR",
+                "libtefet": "0 salarié",
+                "libapet": "Commerce de gros de fournitures et équipements industriels divers",
+                "depcomen": "34314",
+                "libreg_new": "Occitanie",
+                "siret": "52078489300015",
+                "l4_normalisee": "CHEMIN DU LAVOIR",
+                "prodet": "Productif",
+                "sigle": "GFI",
+                "libactivnat": "Autre",
+                "codpos": "34270",
+                "monoact": "1",
+                "dcren": "2010-03-04",
+                "amintren": "2012-09",
+                "apen700": "4669B",
+                "siege": "Etablissement siège",
+                "nic": "00015",
+                "dapen": "2010",
+                "nj": "5498",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "nicsiege": "00015",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "23",
+                "diffcom": "Établissement diffusable",
+                "dcret": "2010-03-04",
+                "coordonnees": [
+                    43.740632,
+                    3.852194
+                ],
+                "depet": "34",
+                "amintret": "2012-09",
+                "datemaj": "2010-03-26T00:00:00+00:00",
+                "nomen_long": "EURL GAYOT FOURNITURES INDUSTRIELLES",
+                "l7_normalisee": "FRANCE",
+                "defet": "2010",
+                "activnat": "99",
+                "l1_declaree": "EURL GAYOT FOURNITURES INDUSTRIELLES",
+                "libnj": "SARL unipersonnelle",
+                "tefen": "00",
+                "efencent": "NN",
+                "rpen": "76",
+                "origine": "1",
+                "libapen": "Commerce de gros de fournitures et équipements industriels divers",
+                "zemet": "9111",
+                "arronet": "3",
+                "saisonat": "Permanente",
+                "rpet": "76",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "314",
+                "auxilt": "Non auxiliaire",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "liborigine": "Création (pour tout type de déclaration)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.852194,
+                    43.740632
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:53:59+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "bd4a1d962f38439efeb19f8aff24dedeff47ab59",
+            "fields": {
+                "efetcent": "NN",
+                "l6_declaree": "97435 SAINT PAUL",
+                "l6_normalisee": "97435 ST PAUL",
+                "libtefen": "0 salarié",
+                "libcom": "SAINT PAUL",
+                "typvoie": "CHE",
+                "date_deb_etat_adm_et": "2013-05-24",
+                "dapet": "2013",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "dcren": "2013-05-24",
+                "l1_normalisee": "GOLD FIELD INVEST",
+                "epci": "249740101",
+                "categorie": "PME",
+                "tcd": "61",
+                "modet": "S",
+                "defen": "2013",
+                "proden": "Productif",
+                "libtu": "Unité urbaine de 100 000 à 199 999 habitants",
+                "siren": "793671389",
+                "apet700": "6810Z",
+                "tu": "6",
+                "lieuact": "07",
+                "libvoie": "TAMATAVE",
+                "libtefet": "0 salarié",
+                "libapet": "Activités des marchands de biens immobiliers",
+                "depcomen": "97415",
+                "siret": "79367138900013",
+                "l4_normalisee": "13 CHEMIN TAMATAVE",
+                "prodet": "Productif",
+                "sigle": "GFI",
+                "libactivnat": "Commerce de détail",
+                "codpos": "97435",
+                "nj": "5202",
+                "l1_declaree": "GOLD FIELD INVEST",
+                "l4_declaree": "13 CHE TAMATAVE",
+                "amintren": "2013-06",
+                "apen700": "6810Z",
+                "siege": "Etablissement siège",
+                "nic": "00013",
+                "dapen": "2013",
+                "l5_normalisee": "ST GILLES LES HAUTS",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "13",
+                "nicsiege": "00013",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "497",
+                "diffcom": "Établissement diffusable",
+                "dcret": "2013-05-24",
+                "du": "9D",
+                "coordonnees": [
+                    -21.047621,
+                    55.265344
+                ],
+                "depet": "97",
+                "amintret": "2013-06",
+                "datemaj": "2016-02-11T00:00:00+00:00",
+                "nomen_long": "GOLD FIELD INVEST",
+                "l7_normalisee": "FRANCE",
+                "defet": "2013",
+                "activnat": "10",
+                "uu": "02",
+                "monoact": "1",
+                "libnj": "Société en nom collectif",
+                "tefen": "00",
+                "efencent": "NN",
+                "rpen": "04",
+                "origine": "1",
+                "libapen": "Activités des marchands de biens immobiliers",
+                "zemet": "0403",
+                "arronet": "44",
+                "saisonat": "Permanente",
+                "rpet": "04",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "415",
+                "auxilt": "Non auxiliaire",
+                "l2_declaree": "GOLD FIELD INVEST",
+                "liborigine": "Création (pour tout type de déclaration)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.265344,
+                    -21.047621
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:54:29+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "3152588db0488692a275d21c9ee77632156ffad0",
+            "fields": {
+                "efetcent": "0",
+                "l6_declaree": "42580 L' ETRAT",
+                "l6_normalisee": "42580 L ETRAT",
+                "libtefen": "0 salarié",
+                "libcom": "L' ETRAT",
+                "dapen": "2008",
+                "date_deb_etat_adm_et": "1990-06-01",
+                "dapet": "2008",
+                "dcren": "1985-02-27",
+                "l1_normalisee": "GESTION FONCIERE INVESTISSEMENT PRIVE",
+                "epci": "244200770",
+                "categorie": "PME",
+                "tcd": "16",
+                "modet": "S",
+                "defen": "2004",
+                "proden": "Productif",
+                "libtu": "Unité urbaine de 200 000 à 1 999 999 habitants",
+                "siren": "332023142",
+                "apet700": "4110A",
+                "tu": "7",
+                "lieuact": "99",
+                "libvoie": "CHATEAU DE VALBOIS",
+                "libtefet": "0 salarié",
+                "libapet": "Promotion immobilière de logements",
+                "depcomen": "42092",
+                "siret": "33202314200026",
+                "l4_normalisee": "CHATEAU DE VALBOIS",
+                "prodet": "Productif",
+                "sigle": "GFIP",
+                "libactivnat": "Non renseigné",
+                "codpos": "42580",
+                "l1_declaree": "GESTION FONCIERE INVESTISSEMENT PRIVE",
+                "l4_declaree": "CHATEAU DE VALBOIS",
+                "amintren": "2012-09",
+                "apen700": "4110A",
+                "siege": "Etablissement siège",
+                "nic": "00026",
+                "libreg_new": "Auvergne-Rhône-Alpes",
+                "nj": "5499",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "nicsiege": "00026",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "21",
+                "diffcom": "Établissement diffusable",
+                "dcret": "1990-06-01",
+                "du": "00",
+                "coordonnees": [
+                    45.481775,
+                    4.380958
+                ],
+                "depet": "42",
+                "amintret": "2012-09",
+                "datemaj": "2016-03-09T00:00:00+00:00",
+                "nomen_long": "GESTION FONCIERE INVESTISSEMENT PRIVE",
+                "l7_normalisee": "FRANCE",
+                "defet": "2004",
+                "activnat": "NR",
+                "uu": "53",
+                "monoact": "1",
+                "libnj": "Société à responsabilité limitée (sans autre indication)",
+                "tefen": "00",
+                "efencent": "0",
+                "rpen": "84",
+                "origine": "1",
+                "libapen": "Promotion immobilière de logements",
+                "zemet": "0060",
+                "arronet": "3",
+                "saisonat": "Permanente",
+                "rpet": "84",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "092",
+                "auxilt": "Non auxiliaire",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "liborigine": "Création (pour tout type de déclaration)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.380958,
+                    45.481775
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:51:55+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "0de343f1403011b9cf8eae4fe785219cbade0ddd",
+            "fields": {
+                "efetcent": "0",
+                "l6_declaree": "75006 PARIS 6",
+                "l6_normalisee": "75006 PARIS",
+                "libtefen": "0 salarié",
+                "libcom": "PARIS 6",
+                "typvoie": "RUE",
+                "date_deb_etat_adm_et": "1993-09-13",
+                "dapet": "2008",
+                "l4_declaree": "8 RUE GUYNEMER",
+                "l1_normalisee": "GROUPEMENT FAMILIAL INVESTIS MOBILIERS",
+                "epci": "200054781",
+                "tcd": "80",
+                "modet": "S",
+                "defen": "2004",
+                "proden": "Non productif",
+                "libtu": "Agglomération de Paris",
+                "siren": "392710901",
+                "apet700": "6832A",
+                "tu": "8",
+                "libvoie": "GUYNEMER",
+                "libtefet": "0 salarié",
+                "libapet": "Administration d'immeubles et autres biens immobiliers",
+                "depcomen": "75106",
+                "libreg_new": "Ile-de-France",
+                "siret": "39271090100019",
+                "l4_normalisee": "8 RUE GUYNEMER",
+                "prodet": "Non productif",
+                "sigle": "GFIM",
+                "libactivnat": "Non renseigné",
+                "codpos": "75006",
+                "l1_declaree": "GROUPEMENT FAMILIAL INVESTIS MOBILIERS",
+                "dcren": "1993-09-13",
+                "amintren": "2012-09",
+                "apen700": "6832A",
+                "siege": "Etablissement siège",
+                "nic": "00019",
+                "dapen": "2008",
+                "nj": "6599",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "8",
+                "nicsiege": "00019",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "lieuact": "99",
+                "diffcom": "Établissement diffusable",
+                "dcret": "1993-09-13",
+                "du": "00",
+                "coordonnees": [
+                    48.848082,
+                    2.332375
+                ],
+                "depet": "75",
+                "amintret": "2012-09",
+                "datemaj": "2012-02-01T00:00:00+00:00",
+                "nomen_long": "GROUPEMENT FAMILIAL INVESTIS MOBILIERS",
+                "l7_normalisee": "FRANCE",
+                "defet": "2004",
+                "activnat": "NR",
+                "uu": "51",
+                "monoact": "1",
+                "libnj": "Autre société civile",
+                "tefen": "00",
+                "efencent": "0",
+                "rpen": "11",
+                "origine": "1",
+                "libapen": "Administration d'immeubles et autres biens immobiliers",
+                "zemet": "1101",
+                "arronet": "1",
+                "saisonat": "Permanente",
+                "rpet": "11",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "106",
+                "auxilt": "Non auxiliaire",
+                "ind_publipo": "établissement ne faisant pas partie du champ du publipostage",
+                "liborigine": "Création (pour tout type de déclaration)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.332375,
+                    48.848082
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:52:38+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "8c450fe3f279f4c1cf7a4db8b0b46c15f2b13d10",
+            "fields": {
+                "efetcent": "0",
+                "l6_declaree": "75008 PARIS 8",
+                "l6_normalisee": "75008 PARIS",
+                "libtefen": "0 salarié",
+                "libcom": "PARIS 8",
+                "typvoie": "AV",
+                "date_deb_etat_adm_et": "2008-07-01",
+                "dapet": "2008",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "l4_declaree": "102 AV DES CHAMPS ELYSEES",
+                "l1_normalisee": "GFI PROPRETE",
+                "epci": "200054781",
+                "categorie": "PME",
+                "tcd": "80",
+                "modet": "S",
+                "defen": "2011",
+                "proden": "Productif",
+                "libtu": "Agglomération de Paris",
+                "siren": "505298000",
+                "apet700": "8122Z",
+                "tu": "8",
+                "libvoie": "DES CHAMPS ELYSEES",
+                "libtefet": "0 salarié",
+                "libapet": "Autres activités nettoyage des bâtiments et nettoyage industriel",
+                "depcomen": "75108",
+                "libreg_new": "Ile-de-France",
+                "siret": "50529800000017",
+                "l4_normalisee": "102 AVENUE DES CHAMPS ELYSEES",
+                "prodet": "Productif",
+                "sigle": "GFI.PROPRETE",
+                "libactivnat": "Services",
+                "codpos": "75008",
+                "l1_declaree": "GESTION FORMAT INTERVENTION PROPRETE",
+                "dcren": "2008-07-01",
+                "amintren": "2012-09",
+                "apen700": "8122Z",
+                "siege": "Etablissement siège",
+                "nic": "00017",
+                "dapen": "2008",
+                "nj": "5498",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "102",
+                "nicsiege": "00017",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "lieuact": "93",
+                "diffcom": "Établissement diffusable",
+                "dcret": "2008-07-01",
+                "du": "00",
+                "coordonnees": [
+                    48.871839,
+                    2.30228
+                ],
+                "depet": "75",
+                "amintret": "2012-09",
+                "datemaj": "2012-11-20T00:00:00+00:00",
+                "nomen_long": "GESTION FORMATION INTERVENTION EN PROPRETE",
+                "l7_normalisee": "FRANCE",
+                "defet": "2011",
+                "activnat": "12",
+                "uu": "51",
+                "monoact": "1",
+                "libnj": "SARL unipersonnelle",
+                "tefen": "00",
+                "efencent": "0",
+                "rpen": "11",
+                "origine": "1",
+                "libapen": "Autres activités nettoyage des bâtiments et nettoyage industriel",
+                "zemet": "1101",
+                "arronet": "1",
+                "saisonat": "Permanente",
+                "rpet": "11",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "108",
+                "auxilt": "Non auxiliaire",
+                "l2_declaree": "GFI.PROPRETE",
+                "liborigine": "Création (pour tout type de déclaration)",
+                "l2_normalisee": "GESTION FORMAT INTERVENTION PROPRETE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.30228,
+                    48.871839
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:53:39+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "568d5b04ba55322ec957f37b070a55a05aba7c7d",
+            "fields": {
+                "efetcent": "NN",
+                "l6_declaree": "93360 NEUILLY PLAISANCE",
+                "l6_normalisee": "93360 NEUILLY PLAISANCE",
+                "libtefen": "3 à 5 salariés",
+                "libcom": "NEUILLY PLAISANCE",
+                "typvoie": "ALL",
+                "date_deb_etat_adm_et": "2016-12-01",
+                "dapet": "2016",
+                "l4_declaree": "6 ALL DES IRIS",
+                "l1_normalisee": "GFIBAT",
+                "epci": "200054781",
+                "tcd": "41",
+                "modet": "S",
+                "defen": "2016",
+                "proden": "Productif",
+                "libtu": "Agglomération de Paris",
+                "siren": "818831646",
+                "apet700": "4120B",
+                "tu": "8",
+                "libvoie": "DES IRIS",
+                "libtefet": "3 à 5 salariés",
+                "libapet": "Construction d'autres bâtiments",
+                "depcomen": "93049",
+                "libreg_new": "Ile-de-France",
+                "siret": "81883164600026",
+                "l4_normalisee": "6 ALL DES IRIS",
+                "prodet": "Productif",
+                "codpos": "93360",
+                "monoact": "1",
+                "dcren": "2016-02-24",
+                "amintren": "2016-03",
+                "apen700": "4120B",
+                "siege": "Etablissement siège",
+                "nic": "00026",
+                "dapen": "2016",
+                "nj": "5710",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "6",
+                "nicsiege": "00026",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "21",
+                "diffcom": "Établissement diffusable",
+                "dcret": "2016-12-01",
+                "du": "00",
+                "coordonnees": [
+                    48.85932,
+                    2.515373
+                ],
+                "depet": "93",
+                "amintret": "2016-12",
+                "datemaj": "2016-12-21T00:00:00+00:00",
+                "nomen_long": "GFIBAT",
+                "defet": "2016",
+                "l1_declaree": "GFIBAT",
+                "auxilt": "Non auxiliaire",
+                "uu": "51",
+                "libnj": "SAS, société par actions simplifiée",
+                "tefen": "02",
+                "efencent": "NN",
+                "rpen": "11",
+                "origine": "1",
+                "libapen": "Construction d'autres bâtiments",
+                "zemet": "1101",
+                "arronet": "2",
+                "saisonat": "Permanente",
+                "rpet": "11",
+                "tefet": "02",
+                "moden": "S",
+                "comet": "049",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "liborigine": "Création (pour tout type de déclaration)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.515373,
+                    48.85932
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:54:41+00:00"
+        },
+        {
+            "datasetid": "sirene@public",
+            "recordid": "2f3e8d8eb2973712c999bce504192740e50ed8f9",
+            "fields": {
+                "efetcent": "0",
+                "l6_declaree": "78120 RAMBOUILLET",
+                "l6_normalisee": "78120 RAMBOUILLET",
+                "libtefen": "0 salarié",
+                "libcom": "RAMBOUILLET",
+                "typvoie": "RUE",
+                "date_deb_etat_adm_et": "1999-11-22",
+                "dapet": "2008",
+                "ind_publipo": "établissement faisant partie du champ du publipostage",
+                "l4_declaree": "5 RUE GEORGES CLEMENCEAU",
+                "l1_normalisee": "GFIN",
+                "epci": "247800600",
+                "categorie": "PME",
+                "tcd": "42",
+                "modet": "S",
+                "defen": "2005",
+                "proden": "Productif",
+                "libtu": "Unité urbaine de 20 000 à 49 999 habitants",
+                "siren": "409439411",
+                "apet700": "6831Z",
+                "tu": "4",
+                "lieuact": "99",
+                "libvoie": "GEORGES CLEMENCEAU",
+                "libtefet": "0 salarié",
+                "libapet": "Agences immobilières",
+                "depcomen": "78517",
+                "libreg_new": "Ile-de-France",
+                "siret": "40943941100037",
+                "l4_normalisee": "5 RUE GEORGES CLEMENCEAU",
+                "prodet": "Productif",
+                "libactivnat": "Non renseigné",
+                "codpos": "78120",
+                "l1_declaree": "GESTION FINANCEMENT IMMOB NEGOCIATION",
+                "dcren": "1996-10-23",
+                "amintren": "2012-09",
+                "apen700": "6831Z",
+                "siege": "Etablissement siège",
+                "nic": "00037",
+                "dapen": "2008",
+                "nj": "5499",
+                "libmonoact": "Entreprise dont tous les établissements ont la même activité principale",
+                "numvoie": "5",
+                "nicsiege": "00037",
+                "libmodet": "Activité simple",
+                "libmoden": "Activité simple",
+                "ctonet": "14",
+                "diffcom": "Établissement diffusable",
+                "dcret": "1999-11-22",
+                "du": "78",
+                "coordonnees": [
+                    48.644111,
+                    1.824186
+                ],
+                "depet": "78",
+                "amintret": "2012-09",
+                "datemaj": "2016-04-14T00:00:00+00:00",
+                "nomen_long": "GESTION FINANCEMENT IMMOBILIER NEGOCIATION",
+                "l7_normalisee": "FRANCE",
+                "defet": "2005",
+                "activnat": "NR",
+                "uu": "01",
+                "monoact": "1",
+                "libnj": "Société à responsabilité limitée (sans autre indication)",
+                "tefen": "00",
+                "efencent": "0",
+                "rpen": "11",
+                "origine": "9",
+                "libapen": "Agences immobilières",
+                "zemet": "1112",
+                "arronet": "2",
+                "saisonat": "Permanente",
+                "rpet": "11",
+                "tefet": "00",
+                "moden": "S",
+                "comet": "517",
+                "auxilt": "Non auxiliaire",
+                "l2_declaree": "GFIN",
+                "liborigine": "Autre (pour les déclarations non agricoles)",
+                "l2_normalisee": "GESTION FINANCEMENT IMMOB NEGOCIATION"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.824186,
+                    48.644111
+                ]
+            },
+            "record_timestamp": "2017-01-25T10:52:38+00:00"
+        }
+    ],
+    "facet_groups": [
+        {
+            "name": "categorie",
+            "facets": [
+                {
+                    "name": "PME",
+                    "path": "PME",
+                    "count": 82,
+                    "state": "displayed"
+                },
+                {
+                    "name": "GE",
+                    "path": "GE",
+                    "count": 79,
+                    "state": "displayed"
+                },
+                {
+                    "name": "ETI",
+                    "path": "ETI",
+                    "count": 2,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "proden",
+            "facets": [
+                {
+                    "name": "Productif",
+                    "path": "Productif",
+                    "count": 174,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Non productif",
+                    "path": "Non productif",
+                    "count": 41,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "libapen",
+            "facets": [
+                (toomanyelementstopreview)
+            ]
+        },
+        {
+            "name": "siege",
+            "facets": [
+                {
+                    "name": "Etablissement siège",
+                    "path": "Etablissement siège",
+                    "count": 134,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Etablissement non siège",
+                    "path": "Etablissement non siège",
+                    "count": 81,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "libreg_new",
+            "facets": [
+                {
+                    "name": "Ile-de-France",
+                    "path": "Ile-de-France",
+                    "count": 58,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Auvergne-Rhône-Alpes",
+                    "path": "Auvergne-Rhône-Alpes",
+                    "count": 26,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Bourgogne-Franche-Comté",
+                    "path": "Bourgogne-Franche-Comté",
+                    "count": 22,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Occitanie",
+                    "path": "Occitanie",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Nouvelle Aquitaine",
+                    "path": "Nouvelle Aquitaine",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Pays de la Loire",
+                    "path": "Pays de la Loire",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Provence-Alpes-Côte d'Azur",
+                    "path": "Provence-Alpes-Côte d'Azur",
+                    "count": 14,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Grand-Est",
+                    "path": "Grand-Est",
+                    "count": 12,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Hauts-de-France",
+                    "path": "Hauts-de-France",
+                    "count": 11,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Bretagne",
+                    "path": "Bretagne",
+                    "count": 8,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Centre-Val de Loire",
+                    "path": "Centre-Val de Loire",
+                    "count": 8,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Normandie",
+                    "path": "Normandie",
+                    "count": 6,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Corse",
+                    "path": "Corse",
+                    "count": 1,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "saisonat",
+            "facets": [
+                {
+                    "name": "Permanente",
+                    "path": "Permanente",
+                    "count": 215,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "libtefen",
+            "facets": [
+                {
+                    "name": "0 salarié",
+                    "path": "0 salarié",
+                    "count": 79,
+                    "state": "displayed"
+                },
+                {
+                    "name": "1 ou 2 salariés",
+                    "path": "1 ou 2 salariés",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "5 000 à 9 999 salariés",
+                    "path": "5 000 à 9 999 salariés",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "500 à 999 salariés",
+                    "path": "500 à 999 salariés",
+                    "count": 21,
+                    "state": "displayed"
+                },
+                {
+                    "name": "1 000 à 1 999 salariés",
+                    "path": "1 000 à 1 999 salariés",
+                    "count": 15,
+                    "state": "displayed"
+                },
+                {
+                    "name": "50 à 99 salariés",
+                    "path": "50 à 99 salariés",
+                    "count": 12,
+                    "state": "displayed"
+                },
+                {
+                    "name": "3 à 5 salariés",
+                    "path": "3 à 5 salariés",
+                    "count": 11,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Unités non employeuses",
+                    "path": "Unités non employeuses",
+                    "count": 7,
+                    "state": "displayed"
+                },
+                {
+                    "name": "100 à 199 salariés",
+                    "path": "100 à 199 salariés",
+                    "count": 4,
+                    "state": "displayed"
+                },
+                {
+                    "name": "6 à 9 salariés",
+                    "path": "6 à 9 salariés",
+                    "count": 4,
+                    "state": "displayed"
+                },
+                {
+                    "name": "20 à 49 salariés",
+                    "path": "20 à 49 salariés",
+                    "count": 2,
+                    "state": "displayed"
+                },
+                {
+                    "name": "10 000 salariés et plus",
+                    "path": "10 000 salariés et plus",
+                    "count": 1,
+                    "state": "displayed"
+                },
+                {
+                    "name": "10 à 19 salariés",
+                    "path": "10 à 19 salariés",
+                    "count": 1,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "depet",
+            "facets": [
+                (toomanyelementstopreview)
+            ]
+        },
+        {
+            "name": "libnj",
+            "facets": [
+                {
+                    "name": "SA à conseil d'administration (s.a.i.)",
+                    "path": "SA à conseil d'administration (s.a.i.)",
+                    "count": 46,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société par actions simplifiée à associé unique ou société par actions simplifiée unipersonnelle",
+                    "path": "Société par actions simplifiée à associé unique ou société par actions simplifiée unipersonnelle",
+                    "count": 37,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société à responsabilité limitée (sans autre indication)",
+                    "path": "Société à responsabilité limitée (sans autre indication)",
+                    "count": 26,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Groupement forestier",
+                    "path": "Groupement forestier",
+                    "count": 18,
+                    "state": "displayed"
+                },
+                {
+                    "name": "SARL unipersonnelle",
+                    "path": "SARL unipersonnelle",
+                    "count": 18,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société civile immobilière",
+                    "path": "Société civile immobilière",
+                    "count": 18,
+                    "state": "displayed"
+                },
+                {
+                    "name": "SAS, société par actions simplifiée",
+                    "path": "SAS, société par actions simplifiée",
+                    "count": 17,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Association déclarée",
+                    "path": "Association déclarée",
+                    "count": 11,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Autre société civile",
+                    "path": "Autre société civile",
+                    "count": 8,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Comité central d'entreprise",
+                    "path": "Comité central d'entreprise",
+                    "count": 7,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société commerciale étrangère immatriculée au RCS",
+                    "path": "Société commerciale étrangère immatriculée au RCS",
+                    "count": 2,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société étrangère non immatriculée au RCS",
+                    "path": "Société étrangère non immatriculée au RCS",
+                    "count": 2,
+                    "state": "displayed"
+                },
+                {
+                    "name": "(Autre) Service déconcentré de l'État à compétence territoriale",
+                    "path": "(Autre) Service déconcentré de l'État à compétence territoriale",
+                    "count": 1,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Comité d'établissement",
+                    "path": "Comité d'établissement",
+                    "count": 1,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Groupement d'intérêt économique (GIE)",
+                    "path": "Groupement d'intérêt économique (GIE)",
+                    "count": 1,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Société en nom collectif",
+                    "path": "Société en nom collectif",
+                    "count": 1,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "libtca",
+            "facets": [
+                {
+                    "name": "De 50 millions à moins de 100 millions d'euros",
+                    "path": "De 50 millions à moins de 100 millions d'euros",
+                    "count": 36,
+                    "state": "displayed"
+                },
+                {
+                    "name": "200 millions d'euros ou plus",
+                    "path": "200 millions d'euros ou plus",
+                    "count": 29,
+                    "state": "displayed"
+                },
+                {
+                    "name": "De 10 millions à moins de 20 millions d'euros",
+                    "path": "De 10 millions à moins de 20 millions d'euros",
+                    "count": 4,
+                    "state": "displayed"
+                },
+                {
+                    "name": "De 5 millions à moins de 10 millions d' euros",
+                    "path": "De 5 millions à moins de 10 millions d' euros",
+                    "count": 3,
+                    "state": "displayed"
+                },
+                {
+                    "name": "De 2 millions à moins de 5 millions d'euros",
+                    "path": "De 2 millions à moins de 5 millions d'euros",
+                    "count": 2,
+                    "state": "displayed"
+                }
+            ]
+        },
+        {
+            "name": "liborigine",
+            "facets": [
+                {
+                    "name": "Création (pour tout type de déclaration)",
+                    "path": "Création (pour tout type de déclaration)",
+                    "count": 177,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Autre (pour les déclarations non agricoles)",
+                    "path": "Autre (pour les déclarations non agricoles)",
+                    "count": 16,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Apport (pour les déclarations non agricoles)",
+                    "path": "Apport (pour les déclarations non agricoles)",
+                    "count": 11,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Non renseigné",
+                    "path": "Non renseigné",
+                    "count": 9,
+                    "state": "displayed"
+                },
+                {
+                    "name": "Achat (pour les déclarations non agricoles)",
+                    "path": "Achat (pour les déclarations non agricoles)",
+                    "count": 1,
+                    "state": "displayed"
+                }
+            ]
+        }
+    ]
+}

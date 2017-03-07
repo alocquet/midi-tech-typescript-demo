@@ -1,12 +1,16 @@
 {
-    "name": "typescript-node-example",
-    "version": "1.0.0",
-    "description": "typescript-node-example",
-    "main": "index.js",
-    "scripts": {
-        "build": "tsc -w"
-    },
-    "devDependencies": {
-        "typescript": "^2.2.1"
-    }
+  "name": "typescript-node-example",
+  "version": "1.0.0",
+  "description": "typescript-node-example",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/request": "0.0.41",
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "request": "^2.80.0"
+  }
 }

@@ -1,0 +1,91 @@
+export interface Fields {
+    efetcent: string;
+    l6_declaree: string;
+    l6_normalisee: string;
+    libtefen: string;
+    libcom: string;
+    typvoie: string;
+    date_deb_etat_adm_et: string;
+    dapet: string;
+    ind_publipo: string;
+    l4_declaree: string;
+    l1_normalisee: string;
+    epci: string;
+    categorie: string;
+    tcd: string;
+    modet: string;
+    defen: string;
+    proden: string;
+    libtu: string;
+    siren: string;
+    apet700: string;
+    tu: string;
+    lieuact: string;
+    libvoie: string;
+    libtefet: string;
+    libapet: string;
+    depcomen: string;
+    libreg_new: string;
+    siret: string;
+    l4_normalisee: string;
+    prodet: string;
+    libactivnat: string;
+    codpos: string;
+    l1_declaree: string;
+    dcren: string;
+    amintren: string;
+    apen700: string;
+    siege: string;
+    nic: string;
+    dapen: string;
+    nj: string;
+    libmonoact: string;
+    numvoie: string;
+    nicsiege: string;
+    libmodet: string;
+    libmoden: string;
+    ctonet: string;
+    diffcom: string;
+    dcret: string;
+    du: string;
+    coordonnees: number[];
+    depet: string;
+    amintret: string;
+    datemaj: Date;
+    nomen_long: string;
+    l7_normalisee: string;
+    defet: string;
+    activnat: string;
+    uu: string;
+    monoact: string;
+    libnj: string;
+    tefen: string;
+    efencent: string;
+    rpen: string;
+    origine: string;
+    libapen: string;
+    zemet: string;
+    arronet: string;
+    saisonat: string;
+    rpet: string;
+    tefet: string;
+    moden: string;
+    comet: string;
+    auxilt: string;
+    l2_declaree: string;
+    liborigine: string;
+    l2_normalisee: string;
+}
+
+export interface Geometry {
+    type: string;
+    coordinates: number[];
+}
+
+export interface Sirene {
+    datasetid: string;
+    recordid: string;
+    fields: Fields;
+    geometry: Geometry;
+    record_timestamp: Date;
+}
