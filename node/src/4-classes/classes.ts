@@ -50,7 +50,7 @@ class Dog {
 }
 new Dog('Dingo').name;
 
-// utiliser une classe comme une instance
+// utiliser une classe comme une interface
 class Point {
     constructor(public x: number, public y: number) { }
     toString() { return this.x + "," + this.y; }

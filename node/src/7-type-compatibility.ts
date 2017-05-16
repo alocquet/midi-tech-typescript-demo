@@ -22,7 +22,7 @@ enum Status { Ready, Waiting };
 enum Color { Red, Blue, Green };
 
 let statuss = Status.Ready;
-// statuss = Color.Green;  //error
+// statuss = Color.Green;  //error because another enum type. Should be ok if statuss has been a number type
 
 
 
@@ -46,9 +46,9 @@ s = a;  //OK
 
 // Generics
 interface Empty<T> {}
-let xé: Empty<number>;
-let yé: Empty<string>;
-xé = yé;  // okay, y matches structure of x
+let xt: Empty<number>;
+let yt: Empty<string>;
+xt = yt;  // okay, y matches structure of x
 
 interface NotEmpty<T> {data: T;}
 let xr: NotEmpty<number>;

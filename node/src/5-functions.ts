@@ -10,67 +10,86 @@ logTestArrow(); // ok
 // signature de fonction comme type
 let add: (a: number, b: number) => number;
 // error : add(1, 2);
-// peut être défini comme interface
-interface Operator { (a: number, b: number): number; }
-let applyOperator = (a: number, b: number, op: Operator) => op(a, b);
-console.log(applyOperator(1, 2, (a, b) => a + b));
+
 // optional & default parameters
 function optionals(a: string, b?: string, c = 'ok') {
     console.log(a, b, c);
 }
 optionals('a');
 
+// Utilisation de this
 
-// THIS
-// 1. ARROW
-/*let deck = {
-    suits: ["hearts", "spades", "clubs", "diamonds"],
-    cards: Array(52),
-    createCardPicker: function() {
-        return function() {
-            let pickedCard = Math.floor(Math.random() * 52);
-            let pickedSuit = Math.floor(pickedCard / 13);
-            
-            return {suit: this.suits[pickedSuit], card: pickedCard % 13};
+// 1. Function CLASSIQUE
+/* let cinema = {
+    seances: [
+        {film:"Zoolander", places : 150},
+        {film:"Wayne's World", places : 100},
+        {film:"Kung fury", places : 10}],
+    moduleDeReservation: function() {
+        return function(seance: number) {
+            if(this.seances[seance] && this.seances[seance].places > 0) {
+                this.seances[seance].places --;
+                return true;
+            }
+            return false;
         }
     }
 }
 
-let cardPicker = deck.createCardPicker();
-let pickedCard = cardPicker();
+let moduleDeReservation = cinema.moduleDeReservation();
+console.log(moduleDeReservation(1));*/
 
-console.log("card: " + pickedCard.card + " of " + pickedCard.suit);*/
-// this = window
+// DANS CE CAS : this = window
 // correction : utiliser arrow
 
-// autre possibilité : passer this en paramètre
-interface Card {
-    suit: string;
-    card: number;
-}
-interface Deck {
-    suits: string[];
-    cards: number[];
-    createCardPicker(this: Deck): () => Card;
-}
-let deck: Deck = {
-    suits: ["hearts", "spades", "clubs", "diamonds"],
-    cards: Array(52),
-    // NOTE: The function now explicitly specifies that its callee must be of type Deck
-    createCardPicker: function (this: Deck) {
-        return () => {
-            let pickedCard = Math.floor(Math.random() * 52);
-            let pickedSuit = Math.floor(pickedCard / 13);
-
-            return { suit: this.suits[pickedSuit], card: pickedCard % 13 };
+/*
+let cinema = {
+    seances: [
+        {film:"Zoolander", places : 150},
+        {film:"Wayne's World", places : 100},
+        {film:"Kung fury", places : 10}],
+    moduleDeReservation: function() {
+        return (seance: number) => {
+            if(this.seances[seance] && this.seances[seance].places > 0) {
+                this.seances[seance].places --;
+                return this.seances[seance];
+            }
+            return undefined;
         }
     }
 }
 
-let cardPicker = deck.createCardPicker();
-let pickedCard = cardPicker();
+let moduleDeReservation = cinema.moduleDeReservation();
+console.log(moduleDeReservation(1));
+*/
+// autre possibilité : passer this en paramètre
+interface Seance {
+    film: string;
+    places: number;
+}
+interface Cinema {
+    seances: Seance[];
+    moduleDeReservation(this: Cinema): (seance: number) => Seance;
+}
 
-console.log("card: " + pickedCard.card + " of " + pickedCard.suit);
+let cinema: Cinema = {
+    seances: [
+        {film:"Zoolander", places : 150},
+        {film:"Wayne's World", places : 100},
+        {film:"Kung fury", places : 10}],
+    moduleDeReservation: function(this: Cinema) {
+        return (seance: number) => {
+            if(this.seances[seance] && this.seances[seance].places > 0) {
+                this.seances[seance].places --;
+                return this.seances[seance];
+            }
+            return undefined;
+        }
+    }
+}
+
+let moduleDeReservation = cinema.moduleDeReservation();
+console.log(moduleDeReservation(1));
 
 // overload
 class Operators {
