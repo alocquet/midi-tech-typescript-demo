@@ -65,5 +65,7 @@ f(1, null); // error, 'null' is not assignable to 'number | undefined'
 
 
 
-// Type Aliases
-**TODO**
+// String literals types
+type BooleanAsString = "true" | "false";
+let yes : BooleanAsString = "true";
+// let false : BooleanAsString = "n";
