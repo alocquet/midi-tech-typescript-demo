@@ -1,11 +1,12 @@
 /// <reference path="node_modules/@types/jquery/index.d.ts" />
 /// <reference path="node_modules/@types/jqueryui/index.d.ts" />
 
-var todos = [
-    { id: 1, titre: "Tache 1" },
-    { id: 2, titre: "Tache 2", description: "Description de la tache 2" },
-    { id: 3, titre: "Tache 3" },
-];
+let todos = [
+    {id:1, titre:"Preparer le midi technique TypeScript"},
+    {id:2, titre:"Traiter les demandes PIC", description:"Description de la tache 2"},
+    {id:3, titre:"Preparer les vacances"}
+]
+
 console.log(todos.length);
 todos.forEach(function (todo) {
     $("#todo tbody").append(`<tr>
