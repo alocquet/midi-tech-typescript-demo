@@ -1,8 +1,9 @@
-//realisation des imports
+import * as $  from "jquery";
+import {sayHello} from "./component"
 
+$("#content").append(sayHello("Nicolas"));
 
-
-//appel de la méthode sayHello
+$("#content").append("Un test avec jQuery");
 
 var todos  = [
     {titre:"Preparer le midi technique TypeScript"},
@@ -10,6 +11,5 @@ var todos  = [
     {titre:"Preparer les vacances"},    
 ]
 
-// parcours de la liste
 var ul = $("#content").append($("<ul>"));
 $.each(todos, (index, item)=> ul.append(`<li>${item.titre}</li>`))

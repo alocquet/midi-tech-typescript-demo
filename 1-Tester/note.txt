@@ -1,0 +1,28 @@
+//declater etat
+
+//declarer interface
+enum State { A_FAIRE, TERMINER }
+
+interface Todo {
+    titre: string,
+    description?: string,
+    etat: State
+}
+
+//definir le tableau
+
+let todos: Todo[] = [
+    { titre: "Preparer le midi technique TypeScript", etat: State.TERMINER },
+    { titre: "Traiter les demandes PIC", description: "Description de la tache 2", etat: State.TERMINER },
+    { titre: "Preparer les vacances", etat: State.TERMINER },
+]
+
+
+//parcourir le tableau
+
+todos.forEach(todo => {
+    const li = document.createElement("li")
+    li.innerHTML = `${todo.titre} Status : ${todo.etat === State.TERMINER ? 'Realiser' : 'A faire'}`
+    document.querySelector("#todo").appendChild(li);
+    }
+)

@@ -1,0 +1,19 @@
+
+https://github.com/DefinitelyTyped/DefinitelyTyped
+
+
+/// <reference path="node_modules/@types/jquery/index.d.ts" />
+
+todos.forEach(function (todo) {
+    $("#todo tbody").append(`<tr>
+        <td> ${todo.titre}</td>
+        <td><span class="glyphicon glyphicon-remove" data-id="${todo.id}"></span></td></tr>`);
+});
+
+
+/// <reference path="node_modules/@types/jqueryui/index.d.ts" />
+
+
+$("#todo tbody td>span").click((item) => {
+    $(item.target).closest("tr").toggle("slide");
+})
