@@ -1,20 +1,15 @@
 import * as $  from "jquery";
 import {sayHello} from "./component"
 
-document.body.appendChild(sayHello("Nicolas"));
+$("#content").append(sayHello("Nicolas"));
 
-$("body").append("Un test avec jQuery");
+$("#content").append("Un test avec jQuery");
 
-interface ToDo {
-    label:string;
-}
-
-var todos:Array<ToDo>= [
-    {label:"Task 1"},
-    {label:"Task 2"},
-    {label:"Task 3"},
-    {label:"Task 4"},
+var todos  = [
+    {titre:"Preparer le midi technique TypeScript"},
+    {titre:"Traiter les demandes PIC", description:"Description de la tache 2"},
+    {titre:"Preparer les vacances"},    
 ]
 
-$("body").append($("<ul>"));
-$.each(todos, (index, item:ToDo)=> $("ul").append(`<li>${item.label}</li>`))
+var ul = $("#content").append($("<ul>"));
+$.each(todos, (index, item)=> ul.append(`<li>${item.titre}</li>`))

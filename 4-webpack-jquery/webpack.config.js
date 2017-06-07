@@ -36,6 +36,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Webpack demo',
+            template: 'index.ejs'
         }),
     ],
 };
