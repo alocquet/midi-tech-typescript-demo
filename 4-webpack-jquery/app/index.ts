@@ -1,6 +1,7 @@
 import * as $  from "jquery";
 import {sayHello} from "./component"
 import * as _ from "lodash"
+import {RootObject} from "./meteo"
 
 $("#content").append(sayHello("Nicolas"));
 
@@ -29,3 +30,24 @@ _.each(todos)
     .map(todo => {console.log(todo.titre); return _.toUpper(todo.titre);})
     .forEach(titre => console.log(titre));
 
+ 
+
+    function searchWeather(town:string){
+     $.ajax({url:`http://www.prevision-meteo.ch/services/json/${town}`})
+    .then(data => data as RootObject)
+    .then(meteo => {
+       $("#ville").text(`${meteo.city_info.name}`)
+       $("#prevision").text(meteo.current_condition.date)
+       $("#hour").text(meteo.current_condition.hour)
+       $("#temperature").text(`${meteo.current_condition.tmp}`)
+       $("#humidite").text(`${meteo.current_condition.humidity}`)
+       $("#condition").text(`${meteo.current_condition.condition}`)
+       $("#prev_en_image").attr("src", meteo.current_condition.icon_big)
+
+    });
+    }
+
+    $("#villeSaisie").blur( item => searchWeather($(item.target).val()));
+    $(document).ready(()=>searchWeather("lille"))
+
+   
