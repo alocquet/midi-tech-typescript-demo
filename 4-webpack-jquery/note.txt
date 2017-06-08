@@ -19,6 +19,7 @@ $(document).ready(() => searchWeather("lille"))
 
 
 http://www.prevision-meteo.ch/services/json/lille
+http://json2ts.com/
 
 $.ajax({url:`http://www.prevision-meteo.ch/services/json/${town}`})
     .then(data => data as RootObject)
