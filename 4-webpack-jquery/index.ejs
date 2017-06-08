@@ -1,25 +1,51 @@
 <html>
-    <head>
-        
-        <title><%= htmlWebpackPlugin.options.title %></title>
-        
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        
-    </head>
-    <body>
-        
-        <div class="container">
-            <div class="page-header">
-          <h1>TypeScript avec webpack</h1>
+
+<head>
+
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>TypeScript avec webpack</h1>
         </div>
-        
+
         <div class="panel panel-default">
             <div class="panel-body" id="content">
-              
+
             </div>
         </div>
-        
-        </div>
-    </body>
+
+       
+       <div class="panel panel-default">
+           <div class="panel-body">
+             <div id="meteo">
+			<div class="input-group">
+	  			<span class="input-group-addon">Ville :</span>
+	  			<input type="text" class="form-control" placeholder="Saissez une ville" id="villeSaisie" value="" autocomplete="off">
+			</div>
+			<h1 id="ville"></h1>
+			<div id="now">
+				<p>Date dernier releve :<span id="prevision"></span> à <span id="hour"></span></p>
+				<ul class="list-group">
+					<li class="list-group-item">Temperature : <span id="temperature" class="badge"/></li>
+					<li class="list-group-item">Taux d'humidité : <span id="humidite" class="badge"/></li>
+					<li class="list-group-item">Condition: <span id="condition"/></li>
+					<li class="list-group-item"><img id="prev_en_image"/></li>
+				</ul>
+			</div>
+		</div>
+           </div>
+       </div>
+    </div>
+</body>
+
 </html>

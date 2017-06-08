@@ -13,3 +13,22 @@ var todos  = [
 
 var ul = $("#content").append($("<ul>"));
 $.each(todos, (index, item)=> ul.append(`<li>${item.titre}</li>`))
+
+$("#villeSaisie").blur(item => searchWeather($(item.target).val()));
+$(document).ready(() => searchWeather("lille"))
+
+
+http://www.prevision-meteo.ch/services/json/lille
+
+$.ajax({url:`http://www.prevision-meteo.ch/services/json/${town}`})
+    .then(data => data as RootObject)
+    .then(meteo => {
+       $("#ville").text(`${meteo.city_info.name}`)
+       $("#prevision").text(meteo.current_condition.date)
+       $("#hour").text(meteo.current_condition.hour)
+       $("#temperature").text(`${meteo.current_condition.tmp}`)
+       $("#humidite").text(`${meteo.current_condition.humidity}`)
+       $("#condition").text(`${meteo.current_condition.condition}`)
+       $("#prev_en_image").attr("src", meteo.current_condition.icon_big)
+
+    });
